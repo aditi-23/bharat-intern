@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project.css" class="relf">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="pr-header">
+    <nav>
+      <a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy208BzjfHbK99iqYMOX0QIqAIcj58xRu2Dw&usqp=CAU" alt="logo"></a>
+      <div class="navbar" id="navbar">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="projecthome.html">HOME</a></li>
+          <li><a href="projectabout.html">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="projectcontact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact me</h1>
+  <section class="contact">
+    <p>Aditi Ranjan Singh</p>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/aditi-singh-64a372241?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWoXJ1dghR8aGZIp9exrSrA%3D%3D"target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="aditiranjan345@gmail.com"target="_blank"><i class="fa fa-envelope"></i></a>
+    </div>
+   </section>
+  <!-- javascript -->
+  <script>
+    var navbar =document.getElementById("navbar");
+    function showmenu()
+    {
+        navbar.style.right="0";
+    }
+    function hidemenu()
+    {
+        navbar.style.right="-200px";
+    }
+</script>
+</body>
+</html>
